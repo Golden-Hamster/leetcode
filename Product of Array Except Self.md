@@ -17,7 +17,7 @@
   * 很显然left*right即为结果.
 
 **java代码如下：**
-```
+```java
 public int[] productExceptSelf(int[] nums) {
         int len = nums.length;
         int[] left = new int[len];
@@ -41,7 +41,7 @@ public int[] productExceptSelf(int[] nums) {
     }
 ```
 > 很显然空间复杂度达不到常数的要求。此时我们可以定义一个临时变量记录反向的乘积，然后将结果直接记录在输出数组中。
-```
+```java
 public int[] productExceptSelf(int[] nums) {
         int len = nums.length;
         int[] output = new int[len];
