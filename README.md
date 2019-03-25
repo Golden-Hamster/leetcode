@@ -1,2 +1,2 @@
-# leetcode
-leetcode刷题笔记
+# Initial page
+
